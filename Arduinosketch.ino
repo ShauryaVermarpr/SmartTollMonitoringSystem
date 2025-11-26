@@ -8,7 +8,7 @@
 
 // ==================== WI-FI CONFIGURATION ====================
 const char* ssid = "shar";         
-const char* password = "ramramji";  
+const char* password = "12344321";  
 
 WebServer server(80); 
 
@@ -41,8 +41,8 @@ const int BUZZER_PIN = 2;
 const float ROOF_HEIGHT_CM = 21.0;      
 
 // Vehicle Logic:
-// CAR:   3cm to 8cm
-// TRUCK: 9cm to 20cm
+// CAR:   3cm to 8.5cm
+// TRUCK: 8.5cm to 20cm
 
 const float MIN_VEHICLE_HEIGHT_CM = 3.0;  // Below 3cm is noise
 const float CAR_MAX_HEIGHT_CM = 8.5;      // Cutoff: <= 8.5 is Car, > 8.5 is Truck
